@@ -1,0 +1,45 @@
+/* src/styles/Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Space between logo/name and nav items */
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  .navbar-logo {
+    display: flex; /* Use flex for logo and name alignment */
+    align-items: center; /* Center items vertically */
+    margin: 10px;
+  }
+  
+  .logo {
+    width: 40px;
+    height: 40px;
+    margin-right: 5px; /* Adjust this value to reduce space between logo and name */
+  }
+  
+  .navbar-name {
+    color: #fff; /* Text color for your name */
+    font-size: 24px; /* Font size for your name */
+    margin: 0; /* Remove default margin */
+  }
+  
+  .nav-items {
+    list-style: none;
+    display: flex;
+    gap: 20px; /* Reduce gap between nav items */
+    color: #fff;
+    margin-right: 40px;
+  }
+  
+  .nav-items a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .nav-items a:hover {
+    text-decoration: underline;
+  }
+  

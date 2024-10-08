@@ -1,0 +1,12 @@
+.home-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .quote-image {
+    width: 769px;
+    height: 396px;
+    max-width: 100%;  /* Make image responsive */
+    height: auto;     /* Maintain aspect ratio */
+  }
+  

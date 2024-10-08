@@ -1,0 +1,29 @@
+/* src/styles/Contact.css */
+.contact-container {
+    background-color: #deecf0; /* Light pink background */
+    padding: 20px; /* Padding around the content */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    max-width: 600px; /* Maximum width for the card */
+    margin: 20px auto; /* Center the card */
+  }
+  
+  .contact-container h2 {
+    text-align: center; /* Center the heading */
+    color: #333; /* Darker color for the heading */
+  }
+  
+  .contact-details {
+    margin-top: 10px; /* Space above the contact details */
+    line-height: 1.6; /* Better readability */
+  }
+  
+  .contact-details a {
+    color: #0077cc; /* Link color */
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  .contact-details a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  

@@ -1,0 +1,29 @@
+/* src/styles/About.css */
+.about-container {
+    background-color: #deecf0; /* Light pink background */
+    padding: 20px; /* Padding around the content */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    max-width: 800px; /* Maximum width for the card */
+    margin: 20px auto; /* Center the card */
+  }
+  
+  .about-container h2 {
+    text-align: center; /* Center the heading */
+    color: #333; /* Darker color for the heading */
+  }
+  
+  .about-container ul {
+    list-style-type: none; /* Remove bullet points from the list */
+    padding: 0; /* Remove default padding */
+  }
+  
+  .about-container li {
+    margin: 10px 0; /* Space between list items */
+    line-height: 1.6; /* Better readability */
+  }
+  
+  .about-container em {
+    font-style: italic; /* Italic for emphasis */
+  }
+  
